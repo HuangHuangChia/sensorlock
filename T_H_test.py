@@ -20,8 +20,8 @@ path_status=currentpath+"info.txt"
 #content=f.readlines()
 #f.close()
 
-db_file = currentpath+'DrData3C.accdb' ## Microsoft Access 檔案名稱
-
+#db_file = currentpath+'DrData3C.accdb' ## Microsoft Access 檔案名稱
+db_file = 'C:\SensorLook V2.0\DrData3C.accdb' ## Microsoft Access 檔案名稱
 #db_file = 'C:\\temp1\\DrData3C.accdb' ## Microsoft Access 檔案名稱
 user = 'Administrator'
 password = 'jack'
