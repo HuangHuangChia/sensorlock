@@ -3,7 +3,7 @@ cd "C:\Task\SensorLook"
 "C:\Task\SensorLook\T_H_test1.py"
 timeout /t 1 >nul
 
-chcp 65001
+@chcp 65001
 IF EXIST "c:\task\SensorLook\info_1.txt" (
 c:\Task\LineNotify\LineNotify_general.exe "0xQH1k7AuD1CERF9Hy12XNv8MnTOE8V6MwitbfdJHe9" "c:\task\SensorLook\info_1.txt"
 ) ELSE (

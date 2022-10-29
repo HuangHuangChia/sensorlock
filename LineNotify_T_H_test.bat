@@ -1,3 +1,4 @@
+@echo off
 cd "C:\Task\SensorLook"
 "C:\Task\SensorLook\T_H_test.py"
 timeout /t 1 >nul

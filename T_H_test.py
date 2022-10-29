@@ -28,7 +28,8 @@ password = 'jack'
 connection_string = 'DRIVER={Microsoft Access Driver (*.accdb)};DBQ=%s;UID=%s;PWD=%s' % (db_file, user, password)
 conn = pypyodbc.win_connect_mdb(connection_string)
 
-SQL = 'SELECT Top 1 * FROM [DB] ORDER BY [atime] DESC'  ## 1010801-1080331為資料表名稱
+#SQL = 'SELECT Top 1 * FROM [DB] ORDER BY [atime] DESC'  ## 1010801-1080331為資料表名稱
+SQL = 'SELECT Top 1 * FROM [DB] ORDER BY [aDate] Desc,[atime] DESC' 
 cur = conn.cursor()
 cur.execute(SQL)
 list = cur.fetchall()
